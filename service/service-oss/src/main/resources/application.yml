@@ -17,6 +17,6 @@ spring:
 #不同的服务器，地址不同
 OSS:
   endpoint: oss-cn-beijing.aliyuncs.com
-  accessKeyId: LTAI5tQNax8eYNbDtdhkLvo8
-  accessKeySecret: kLUIWEMK7mDodLVxZIn5hcjNROxite
+  accessKeyId: ***********
+  accessKeySecret: **********
   bucketName: edu-pengyuyan
