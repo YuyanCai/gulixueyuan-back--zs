@@ -1,0 +1,12 @@
+# Project exclude paths
+/canal_clientedu/target/
+/infrastructure/api_gateway/target/
+/service/service-cms/target/
+/service/service-edu/target/
+/service/service-msm/target/
+/service/service-order/target/
+/service/service-oss/target/
+/service/service-statistics/target/
+/service/service-ucenter/target/
+/service/service-vod/target/
+/service/service_acl/target/

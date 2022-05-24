@@ -1,0 +1,19 @@
+#配置中心地址
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: 1063227b-31ae-4a35-8e34-aff3f9dd4fa3
+        ext-config:
+          - data-id: port.yaml
+            refresh: true
+      discovery:
+        server-addr: 127.0.0.1:8848 #Nacos服务注册中心地址
+
+  # 该配置影响统一配置中心中的dataId
+  application:
+    name: service-statistics
+  profiles:
+    active: dev
