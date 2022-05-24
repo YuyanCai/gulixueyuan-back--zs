@@ -20,7 +20,7 @@ public class MsmServiceImpl implements MsmService {
     @Override
     public boolean send(String code, String phone) {
         try {
-            Credential cred = new Credential("AKIDd2AwVoC6AyWnmWyDASVIn1mIYXFjocxl", "iAMHm9zabQpyrCI9jDTUGmGWVIxOZT6N");
+            Credential cred = new Credential("**********", "***********");
 
             // 实例化一个http选项，可选，没有特殊需求可以跳过
             HttpProfile httpProfile = new HttpProfile();
