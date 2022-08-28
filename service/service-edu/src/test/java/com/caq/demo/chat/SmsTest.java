@@ -22,7 +22,7 @@ public class SmsTest {
              * 你也可以直接在代码中写死密钥对，但是小心不要将代码复制、上传或者分享给他人，
              * 以免泄露密钥对危及你的财产安全。
              * SecretId、SecretKey 查询: https://console.cloud.tencent.com/cam/capi */
-            Credential cred = new Credential("AKIDd2AwVoC6AyWnmWyDASVIn1mIYXFjocxl", "iAMHm9zabQpyrCI9jDTUGmGWVIxOZT6N");
+            Credential cred = new Credential("...", "...");
 
             // 实例化一个http选项，可选，没有特殊需求可以跳过
             HttpProfile httpProfile = new HttpProfile();
